@@ -1,5 +1,5 @@
-#Write a shell script that accept one or more file names as argument and convert all of them
-to uppercase, provided they exists in current directory#
+#4a.Write a shell script that accept one or more file names as argument and convert all of them
+#to uppercase, provided they exists in current directory#
 for i in $* if [ -f $i ]
 do
 echo "----$i contents are-------"
